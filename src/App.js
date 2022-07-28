@@ -30,11 +30,12 @@ import Home from "./Home";
 import Quiz from "./Quiz";
 import Form from "./Form";
 import NavBar from "./NavBar";
+import "./App.css";
 
 function App() {
 
   return (
-    <div>
+    <div className="App">
       <NavBar />
       <Switch>
         <Route exact path="/quiz">

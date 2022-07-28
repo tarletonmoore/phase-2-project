@@ -1,8 +1,19 @@
 .App {
   text-align: center;
+  background-color: grey;
+  height: 100vh;
+}
+.Home {
+  background-color: grey;
 }
 
-.App-logo {
+label {display: block;
+margin: 20px;}
+
+form {background-color: grey;
+height: 100vh;}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +46,5 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
+

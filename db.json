@@ -54,6 +54,17 @@
         "Piplup"
       ],
       "correctIndex": 1
+    },
+    {
+      "prompt": "What is the box art legendary for Pokemon Crystal?",
+      "answers": [
+        "Lugia",
+        "Kyogre",
+        "Suicune",
+        "Groudon"
+      ],
+      "correctIndex": 2,
+      "id": 6
     }
   ]
 }
