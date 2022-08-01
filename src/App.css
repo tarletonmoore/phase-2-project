@@ -3,6 +3,9 @@
   background-color: lightgrey;
   height: 100vh;
 }
+
+a {margin-top: 10px;}
+
 .Home {
   background-color: lightgrey;
 }
