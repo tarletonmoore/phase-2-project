@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 
 function Question({ question, onAnswered }) {
-    const [timeRemaining, setTimeRemaining] = useState(10);
+    const [timeRemaining, setTimeRemaining] = useState(15);
 
     useEffect(() => {
         const timer = setTimeout(() => {
             setTimeRemaining(timeRemaining - 1)
             if (timeRemaining === 0) {
-                setTimeRemaining(10)
+                setTimeRemaining(15)
                 onAnswered(false)
             }
         }, 1000)
@@ -18,7 +18,7 @@ function Question({ question, onAnswered }) {
 
 
     function handleAnswer(isCorrect) {
-        setTimeRemaining(10);
+        setTimeRemaining(15);
         onAnswered(isCorrect);
     }
 
